@@ -25,24 +25,24 @@ Dažniausiai naudojamos Linux Command'os
 20. wget: _atsisiųsti failus iš interneto_
 21. curl: _perkelti duomenis į serverį arba iš jo_
 22. ssh: _SSH nuotolinis prisijungimas_
-23. scp: saugiai kopijuokite failus tarp kompiuterių
-24. chmod: Keisti failo teises
-25. chown: pakeisti failo nuosavybę
-26. chgrp: Keisti grupės nuosavybės teisę
-27. ps: Rodyti vykdomus procesus
-28. į viršų: Stebėkite sistemos išteklius ir procesus
-29. nužudyti: nutraukti procesus
-30. df: Rodyti vietos diske naudojimą
-31. du: Apskaičiuokite failų ir katalogų vietos naudojimą
-32. free: Ekrano atminties naudojimas
-33. uname: Spausdinti sistemos informaciją
-34. ifconfig: konfigūruokite tinklo sąsajas
-35. ping: patikrinkite tinklo ryšį
-36. netstat: tinklo statistika
-37. iptables: ugniasienės administravimas
-38. systemctl: Tvarkyti sistemos paslaugas
-39. journalctl: užklausa sistemos žurnalas
-40. crontab: suplanuokite cron darbus
+23. scp: _saugiai kopijuoti failus tarp kompiuterių_
+24. chmod: _keisti failo teises_
+25. chown: _pakeisti failo nuosavybę_
+26. chgrp: _keisti grupės nuosavybės teisę_
+27. ps: _Rodyti vykdomus procesus_
+28. top: _stebėti sistemos išteklius ir procesus_
+29. kill: _nutraukti procesus_
+30. df: _rodyti diske naudojimą vietą_
+31. du: _apskaičiuoti failų ir katalogų vietą_
+32. free: _rodyti atminties naudojimą_
+33. uname: _rodyti sistemos informaciją_
+34. ifconfig: _rodyti tinklo sąsajas_
+35. ping: _patikrinti tinklo ryšį, papinginti_
+36. netstat: _tinklo statistika_
+37. iptables: _ugniasienės administravimas_
+38. systemctl: _tvarkyti sistemos servisus_
+39. journalctl: _sistemos žurnalas_
+40. crontab: _suplanuoti cron darbus_
 41. useradd: sukurkite vartotojo abonementą
 42. passwd: pakeiskite vartotojo slaptažodį
 43. su: Perjungti vartotoją
