@@ -13,18 +13,18 @@ Dažniausiai naudojamos Linux Command'os
 8. rm: _pašalinti failus ir katalogus_
 9. find: _ieškoti failų ir katalogų_
 10. grep: _ieškokite šablonų failuose_
-11. cat: sujunkite ir rodykite failus
-12. mažiau: peržiūrėkite failo turinį puslapis po puslapio
-13. head: Rodyti pirmąsias failo eilutes
-14. tail: Rodyti paskutines failo eilutes
-15. vi/vim: teksto rengyklė
-16. nano: teksto rengyklė
-17. tar: archyvuokite ir suglaudinkite failus
-18. gzip: suspausti failus
-19. gunzip: išskleiskite failus
-20. wget: atsisiųskite failus iš interneto
-21. curl: perkelkite duomenis į serverį arba iš jo
-22. ssh: saugus apvalkalo nuotolinis prisijungimas
+11. cat: _sujunkite ir rodykite failu turinį_
+12. less: _peržiūrėkite failo turinį puslapis po puslapio_
+13. head: _rodyti pirmąsias failo eilutes_
+14. tail: _rodyti paskutines failo eilutes_
+15. vi/vim: _teksto tvarkyklė_
+16. nano: _teksto tvarkyklė_
+17. tar: _archyvuoti ir suglaudinti failus_
+18. gzip: _suspausti failus_
+19. gunzip: _išskleiskite failus_
+20. wget: _atsisiųsti failus iš interneto_
+21. curl: _perkelti duomenis į serverį arba iš jo_
+22. ssh: _SSH nuotolinis prisijungimas_
 23. scp: saugiai kopijuokite failus tarp kompiuterių
 24. chmod: Keisti failo teises
 25. chown: pakeisti failo nuosavybę
