@@ -3,16 +3,16 @@ Visi DevOpso užrašai
 
 Dažniausiai naudojamos Linux Command'os
 
-1. _ls:_ Katalogo turinio sąrašas
-2. cd: Keisti katalogą
-3. pwd: Spausdinti darbo katalogą
-4. mkdir: Sukurkite katalogą
-5. palieskite: sukurkite failą
-6. cp: failų ir katalogų kopijavimas
-7. mv: perkelkite arba pervardykite failus ir katalogus
-8. rm: pašalinkite failus ir katalogus
-9. rasti: ieškoti failų ir katalogų
-10. grep: ieškokite šablonų failuose
+1. ls: _katalogo turinio sąrašas_
+2. cd: _keisti katalogą_
+3. pwd: _spausdinti darbinį katalogą_
+4. mkdir: _sukurkite katalogą_
+5. touch: _sukurkite failą_
+6. cp: _failų ir katalogų kopijavimas_
+7. mv: _perkelkite arba pervardykite failus ir katalogus_
+8. rm: _pašalinti failus ir katalogus_
+9. find: _ieškoti failų ir katalogų_
+10. grep: _ieškokite šablonų failuose_
 11. cat: sujunkite ir rodykite failus
 12. mažiau: peržiūrėkite failo turinį puslapis po puslapio
 13. head: Rodyti pirmąsias failo eilutes
