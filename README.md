@@ -43,12 +43,12 @@ Dažniausiai naudojamos Linux Command'os
 38. systemctl: _tvarkyti sistemos servisus_
 39. journalctl: _sistemos žurnalas_
 40. crontab: _suplanuoti cron darbus_
-41. useradd: sukurkite vartotojo abonementą
-42. passwd: pakeiskite vartotojo slaptažodį
-43. su: Perjungti vartotoją
-44. sudo: Vykdykite komandą kaip kitas vartotojas
-45. usermod: Keisti vartotojo abonementą
-46. ​​groupadd: sukurkite grupę
-47. groupmod: Keisti grupę
-48. id: Spausdinti vartotojo ir grupės informaciją
-49. ssh-keygen: generuokite SSH raktų poras
+41. useradd: _sukurti vartotoją_
+42. passwd: _pakeisti vartotojo slaptažodį_
+43. su: _perjungti vartotoją_
+44. sudo: _vykdykite komandą kaip nurodytas vartotojas_
+45. usermod: _redaguoti vartotojo paskyrą_
+46. ​​groupadd: _sukurti grupę_
+47. groupmod: _keisti grupę_
+48. id: _rodyti vartotojo ir grupės informaciją_
+49. ssh-keygen: _generuokite SSH raktus_
