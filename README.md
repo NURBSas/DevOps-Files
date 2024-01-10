@@ -52,3 +52,30 @@ Dažniausiai naudojamos Linux Command'os
 47. groupmod: _keisti grupę_
 48. id: _rodyti vartotojo ir grupės informaciją_
 49. ssh-keygen: _generuokite SSH raktus_
+50. rsync: _sinchronizuoja failus ir katalogus_
+51. diff: _palyginti failus eilutė po eilutės_
+52. patch: _pritaikyti pataisą failams_
+53. tar: _išskleisti failus iš archyvo_
+55. nc: _Netcat – tinklo įrankis_
+56. wget: _atsisiųsti failus iš interneto_
+57. whois: _ieškoti LDAP domeno vartotojo informacijos_
+58. dig: _DNS paieškos įrankis_
+59. sed: _srauto redaktorius, skirtas manipuliuoti tekstu_
+60. awk: _raštų nuskaitymo ir apdorojimo kalba_
+61. sort: _rūšiuoti eilutes tekstiniame faile_
+62. cut: _ištraukti dalis iš failų eilučių_
+63. wc: _žodžių, eilučių, simbolių ir baitų skaičius_
+64. tee: _peradresuoti išvestį į kelis failus arba komandas_
+65. history: _komandų istorija_
+66. source: _vykdyti komandas iš failo dabartiniame apvalkale_
+67. alias: _kurti komandų slapyvardžius_
+68. ln: _kurti nuorodas tarp failų_
+69. uname: _spausdinti sistemos informaciją_
+70. lsof: _atidaryti failų ir procesų sąrašą_
+71. mkfs: _sukurti failų sistemą_
+72. mount: _prijungti failų sistemą_
+73. umount: _atjungti failų sistemą_
+74. ssh-agent: _tvarkyti SSH raktus atmintyje_
+76. tr: _išversti simbolius_
+78. paste: _sujungti failų eilutes_
+79. uniq: _pranešti arba praleisti pasikartojančias eilutes_
