@@ -103,3 +103,15 @@ Inventory faile rašome:
 
 Bet šis metodas tinkamas tik testavimui. ;)
 
+__Playbook failai YML formatu__
+
+    ---
+    - name: "Chocolatey"
+      hosts: windows
+      tasks:
+        - name: Install chocolatey
+          win_chocolatey:
+              name:
+               - chocolatey
+               - chocolatey-core.extension
+              state: present
