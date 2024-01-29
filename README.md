@@ -79,3 +79,9 @@ Dažniausiai naudojamos Linux Command'os
 76. tr: _išversti simbolius_
 78. paste: _sujungti failų eilutes_
 79. uniq: _pranešti arba praleisti pasikartojančias eilutes_
+
+
+## Ansible konfiguravimas Windows 10 mašinose:
+Prieš paleidžiant konfiguracinį skriptą: ConfigureRemotingForAnsible.ps1 *(https://github.com/AlbanAndrieu/ansible-windows/blob/master/files/ConfigureRemotingForAnsible.ps1)*
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
