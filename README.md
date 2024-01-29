@@ -105,9 +105,11 @@ Bet šis metodas tinkamas tik testavimui. ;)
 
 __Playbook failai YML formatu__
 
+Kai nori užinstaliuoti Chocolatey! *Choco.yml*
+
     ---
     - name: "Chocolatey"
-      hosts: windows
+      hosts: windows serverio vardas
       tasks:
         - name: Install chocolatey
           win_chocolatey:
