@@ -89,3 +89,15 @@ Būtina pasirūpinti leidimais: __Set-ExecutionPolicy -ExecutionPolicy Unrestric
 Kitu atveju fail. ;)
 
 Aišku būtina jį paleisti administratoriaus teisėmis na bet čia jau turėtu būti savaime aišku. ;)
+
+## Ansible konfiguravimas Linux mašinose:
+
+Norint prisijungti prie Linux serverio naudojant tik vartotojo vardą ir slaptažodį būtina užsiinstaliuoti __sshpass__ modulį _sudo apt-get install sshpass_ Jūsų serveryje.
+
+Inventory faile rašome:
+
+    [_jūsų serverio_:vars]
+    ansible_connection = ssh
+    ansible_user = _vartotojas_
+    ansible_ssh_pass = _slaptažodis_
+
