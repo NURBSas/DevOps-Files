@@ -96,7 +96,7 @@ Norint prisijungti prie Linux serverio naudojant tik vartotojo vardą ir slapta�
 
 Inventory faile rašome:
 
-    [_jūsų serverio_:vars]
+    [(_jūsų serverio_):vars]
     ansible_connection = ssh
     ansible_user = _vartotojas_
     ansible_ssh_pass = _slaptažodis_
