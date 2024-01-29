@@ -117,3 +117,25 @@ Kai nori užinstaliuoti Chocolatey! *Choco.yml*
                - chocolatey
                - chocolatey-core.extension
               state: present
+
+Ir atskirų programų iš šokolado instaliavimas.
+
+    ---
+    - hosts: windows serverio vardas
+      tasks:
+      - name: Install Admin Tools
+        win_chocolatey:
+            name: '{{ item }}'
+            state: present
+            pinned: yes
+            architecture: x86
+            force: yes
+        with_items:
+        - 7zip
+        - procexp
+        - putty
+        - notepadplusplus.install
+        - windirstat
+        - git
+        - winscp
+
