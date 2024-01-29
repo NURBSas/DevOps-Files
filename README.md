@@ -82,6 +82,10 @@ Dažniausiai naudojamos Linux Command'os
 
 
 ## Ansible konfiguravimas Windows 10 mašinose:
-Prieš paleidžiant konfiguracinį skriptą: ConfigureRemotingForAnsible.ps1 *(https://github.com/AlbanAndrieu/ansible-windows/blob/master/files/ConfigureRemotingForAnsible.ps1)*
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
+Prieš paleidžiant konfiguracinį skriptą: ConfigureRemotingForAnsible.ps1 *(https://github.com/AlbanAndrieu/ansible-windows/blob/master/files/ConfigureRemotingForAnsible.ps1)*
+
+Būtina pasirūpinti leidimais: __Set-ExecutionPolicy -ExecutionPolicy Unrestricted__
+Kitu atveju fail. ;)
+
+Aišku būtina jį paleisti administratoriaus teisėmis na bet čia jau turėtu būti savaime aišku. ;)
