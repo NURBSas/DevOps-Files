@@ -103,7 +103,8 @@ Tada renkamas -> __Turn on Script Execution__. Keičiam konfiguraciją į -> Ren
 ![paveikslelis3](https://i.stack.imgur.com/n3WQh.png)
 
 
-Confirm by hitting Ok and close the Management Console.
+Sutinkam ir vėl lendam į konsolę...
+
 
 ## Ansible konfiguravimas Linux mašinose:
 
