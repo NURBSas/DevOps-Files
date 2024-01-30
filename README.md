@@ -90,6 +90,19 @@ Kitu atveju fail. ;)
 
 Aišku būtina jį paleisti administratoriaus teisėmis na bet čia jau turėtu būti savaime aišku. ;)
 
+Then on the left pane the group editor can be expanded. Expand it and navigate to Computer Configuration -> Administrative Templates -> Windows Components.
+
+[enter image description here](https://i.stack.imgur.com/84JjK.png)
+
+Then to Windows PowerShell.
+
+[enter image description here](https://i.stack.imgur.com/N5HCq.png)
+
+So select Turn on Script Execution. Change configuration to Enabled and specify Allow all scripts in Execution Policy.
+[enter image description here](https://i.stack.imgur.com/n3WQh.png)
+
+Confirm by hitting Ok and close the Management Console.
+
 ## Ansible konfiguravimas Linux mašinose:
 
 Norint prisijungti prie Linux serverio naudojant tik vartotojo vardą ir slaptažodį būtina užsiinstaliuoti __sshpass__ modulį _sudo apt-get install sshpass_ Jūsų serveryje.
