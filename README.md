@@ -157,7 +157,7 @@ Ir atskirų programų iš šokolado instaliavimas.
 
 ## Ansible konfiguravimas Windows mašinose:
 
-Norint prisijungti prie Windows serverio naudojant vartotojo vardą ir slaptažodį bet norint slaptažodžio nesaugoti failuose pageidautina naudoti komandą __-k, --ask-pass__ paleidžiant komandą __ansible {winserver} -m win_ping -k__ ir nenaudoti ansible_password ansible.cfg faile.
+Norint prisijungti prie Windows serverio naudojant vartotojo vardą ir slaptažodį bet norint slaptažodžio nesaugoti failuose pageidautina naudoti komandą __-k, --ask-pass__ paleidžiant komandą __ansible [winserver] -m win_ping -k__ ir nenaudoti ansible_password ansible.cfg faile. Dirbant su playbook komanda būtų tokia __ansible-playbook [jusu_playbookas].yml -u [vartotojas] -k__
 
 Inventory faile rašome:
 
