@@ -155,3 +155,16 @@ Ir atskirų programų iš šokolado instaliavimas.
         - git
         - winscp
 
+## Ansible konfiguravimas Windows mašinose:
+
+Norint prisijungti prie Windows serverio naudojant vartotojo vardą ir slaptažodį bet norint slaptažodžio nesaugoti failuose pageidautina naudoti komandą __-k, --ask-pass__ paleidžiant komandą __ansible {winserver} -m win_ping -k__ ir nenaudoti ansible_password ansible.cfg faile nep.
+
+Inventory faile rašome:
+
+    [jūsų serverio:vars]
+    ansible_user = [vartotojas]
+    ansible_port = 5986
+    ansible_connection=winrm
+    ansible_winrm_server_cert_validation=ignore
+
+Bet šis metodas nelabai tinka masiniam instaliavimui ir pn.
